@@ -9,19 +9,53 @@ and open the template in the editor.
         <title>Bradey Foster - Portfolio Website</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="projects.html">Projects</a>
-            </nav>  
-        </header>
-        <article>
-            <h1>About Me</h1>
-            <h2>My name is Bradey Foster and i am a student in the app academy</h2>
-            <p>I have been in the App Academy for 2 years. 
-                I also play basketball at PHS and i have also been doing that for 2 years.</p>
-            <img src="http://i.ytimg.com/vi/7zKcCPZ6kxI/maxresdefault.jpg">
-        </article>
+        <div class="container">
+            <div class="row">
+                <div id="head" class="col-xs-5">
+                <h1>The Story of Bradey Foster</h1>
+                </div>
+                <div class="col-lg-10">
+                    <ul class="nav nav-pills" role="tablist">
+                        <li><a id="tabs" href="index.html">About Me</a></li>
+                        <li><a id="tabs" href="projects.html">Projects</a></li>
+                        <li><a id="tabs" href="tech.html">Technologies</a></li>
+                        <li><a id="tabs" href="contact.html">Contact</a></li>
+                    </ul>
+                        <div class="row">
+                            <p>About Me</p>
+                            <div class="col-xs-3">
+                                <img src="http://s4.goodfon.su/wallpaper/previews-middle/216946.jpg" class="img-responsive img-rounded">
+                            </div>
+                            <div class="col-xs-9">
+                                It all started in Orange County when I was born. Before i even reached one years old, me, 
+                                my brother, and my parents all moved to Saint Louis MO. I lived in St.Louis for about 14 years
+                                and then headed back to California but in Pasadena this time. So far i have been here for about 
+                                2 years and i like it a lot. Anyways, im 16 and i have two brothers named Bryce and Brandon. 
+                                I am junior at Pasadena high school and I am in the App Academy. The App Academy has been a great
+                                experience and im hoping to continue this career and make good money of it. I hope all is well
+                                in my junior year!
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Basketball</p>
+                            <div class="col-xs-3">
+                                <img src="http://img.bleacherreport.net/img/images/photos/001/627/880/98748101_crop_exact.jpg?w=1500&h=1500&q=85" class="img-responsive img-rounded">
+                            </div>
+                            <div class="col-xs-9">
+                                Basketball has been around i my life for a very long time. My brother has been the most inspiration
+                                in my basketball life, he basically started my love for basketball.
+                            </div>
+                        </div>
+                </div>
+                <div class="col-xs-2">
+                </div>
+            </div>    
+        </div>
     </body>
 </html>
